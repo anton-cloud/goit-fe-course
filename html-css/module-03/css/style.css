@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+    margin: 0 auto;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Playfair Display', 'Arial', sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+ 
+/*header*/
+
+.nav-list {
+    list-style: none;
+    margin-top: 72px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 105px;
+}
+
+.list-item-1 {
+    margin-left: 170px;
+}
+
+.list-item-2 {
+    margin-left: 126px;
+}
+
+.list-item-3 {
+    margin-left: 102px;
+}
+
+.list-item-4 {
+    margin-left: 94px;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+}
+
+.nav-list a:hover {
+    color: #57c6f8;
+}
+
+/*main*/ 
+
+.lifestyle, .photodiary {
+font-size: 0px;
+}
+
+.item {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 134px;
+}
+
+.item:last-child {
+    margin-right: 0px;
+}
+
+/* -0 + 2 = 2
+-1 + 2 = 1
+-2 + 2 = 0 */
+
+/*.item:nth-last-child(-n+2)
+    margin-bottom: 0px;*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
+
+p.navigation-item {
+    color: #b4ad9e;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.item h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 36px;
+}
+
+.description {
+    margin: 0px;
+    padding: 0px;
+}
+
+.item p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.lifestyle-botton {
+    margin-bottom: 0px;
+}
+
+button {
+    display: inline; 
+    border: 2px;
+    margin-top: 55px;
+    margin-bottom: 70px;
+    padding: 20px 32px;
+    font-size: 20px;
+    background: #ffffff;
+    border: 2px solid #626262;
+    outline:  #626262;
+    text-align: center;
+    color: #626262;
+}
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+}
