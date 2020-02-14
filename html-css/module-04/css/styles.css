@@ -15,7 +15,7 @@ html {
 }
 
 .container {
-    width: 1140px;
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -142,7 +142,7 @@ h2::after {
     background-color:#7fd9c7;
 }
 
-.products-list-item:nth-child(4) {
+.products-list-item:nth-child(4n+4) {
     margin-right: 0;
 }
 
