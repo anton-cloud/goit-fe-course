@@ -121,11 +121,6 @@ li {
     padding-left: 190px;
 }
 
-/* .box {
-    top: 50%;
-    position: absolute;
-    transform: translateY(50%);
-} */
 
 button.left,.right {
     width: 100px;
@@ -229,8 +224,6 @@ h2::after {
     width: 235px;
     height: 260px;
     background-color: rgb(0, 0, 0, 0.3);
-    /* background-clip: padding-box;
-    padding: -10px; */
     position: absolute;
     opacity: 0;
     border: 10px solid rgba(255, 255, 255, 0.5);
@@ -311,7 +304,6 @@ footer {
     font-family: 'open sans', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    /* line-height: 28px; */
     text-align: center;
     line-height: 88px;
 }
