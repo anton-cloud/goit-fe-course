@@ -63,6 +63,11 @@ height: auto;
     font-size: 14px;
     line-height: 17px;
     font-weight: 400;
+    position: relative;
+}
+
+.main-menu-item a {
+    transition: all 0.5s linear;
 }
 
 .main-menu-item a:hover {
@@ -77,7 +82,7 @@ height: auto;
     background-color: #f38181;
     margin: 0 auto; 
     margin-top: 10px;
-
+    position: absolute;
 }
 
 /* ___________________ */
@@ -387,10 +392,18 @@ cursor: pointer;
 .left p {
     margin: 0;
     padding: 0;
+    font-family: 'montserat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
 }
 
 .left a {
     color:#f38181 ;
+    font-family: 'montserat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 5px;
 }
 
 .left {
