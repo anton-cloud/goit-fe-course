@@ -430,7 +430,8 @@ footer {
     line-height: 24px;
     color: #999999;  
     border: solid 1px #e7e7e7; 
-    text-align: center;
+    text-align: left;
+    padding-left: 12px;
 }
 
 .right button {
