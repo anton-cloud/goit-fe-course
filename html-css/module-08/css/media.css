@@ -1,0 +1,139 @@
+@media (min-width: 768px) {
+
+    .container {
+        width: 768px;
+    }
+
+    .bg-image {
+        background-image: url(../images/tablet/bg-image-tablet.jpg);
+    }
+    
+    .main-header {
+        padding: 38px 40px 148px 40px;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .logo {
+        order: 0;
+        padding-top: 8px;
+        
+    }
+
+    .section-top-button-list {
+        /* margin: 0 auto; */
+        padding: 0;
+        display: flex;
+        margin: 0;
+        /* justify-content: center; */
+        /* padding-bottom: 120px; */
+      }
+
+      .header-button {
+          order: 0;
+         
+      }
+
+      /* TOP */
+
+      .top {
+          width: 490px;
+          margin: 0 auto;
+      }
+
+      .top-title {
+          text-align: center;
+          font-size: 50px;
+          margin-bottom: 40px;
+      }
+
+      .top-discription {
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+
+      .top-button-div {
+        padding: 0 0 216px 0;
+      } 
+
+      .top-button {
+        width: 226px;
+      }
+
+     /* BOTTON */
+
+     .partners-list {
+      width: 490px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: space-between;
+      }
+
+/* изменен порядок li */
+
+     .partners-list-item:first-child {
+         order: 1;
+     }
+
+     .partners-list-item:nth-child(2) {
+        order: 3;
+        /* padding-top: 30px; */
+    }
+
+    .partners-list-item:nth-child(3) {
+        order: 2;
+    }
+
+    .partners-list-item:nth-child(4) {
+        order: 4;
+        padding-top: 30px;
+    }
+
+/* ______________ */
+
+.partner-photo {
+    padding-top: 30px;
+  }
+
+  .bottom-button-div {
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+  }
+
+  .bottom-button {
+    width: 226px;
+  }
+
+
+
+  @media (min-width: 940px) {
+    .container {
+        width: 940px;
+    }
+
+    .bg-image {
+        background-image: url(../images/dectop/bg-image-dectop.jpg);
+    }
+
+    .main-header {
+        /* width: 940px; */
+        padding: 50px 0 147px 0;
+    
+    }
+
+    .top-title {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 32px;
+    }
+
+    .partners-list {
+        width: 940px;
+    }
+
+    .partners-list-item:nth-child(4) {
+        padding: 0
+    }
+  }
+
