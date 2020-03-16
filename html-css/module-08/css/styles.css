@@ -89,6 +89,8 @@ body {
 /* HEADER */
 
 .logo {
+  font-family: 'Montserrat';
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
@@ -117,6 +119,8 @@ body {
 }
 
 .header-button {
+  font-family: 'Montserrat';
+  font-weight: 700;
     box-sizing: border-box;
     font-size: 14px;
     color: rgb(255, 255, 255);
@@ -132,6 +136,7 @@ body {
 .header-button:hover {
   border: 2px solid  rgba(255, 255, 255, 1);
   border-radius: 20px;
+  cursor: pointer;
  
 }
 
