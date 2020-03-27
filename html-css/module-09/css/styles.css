@@ -169,6 +169,11 @@ height: auto;
     border: none;
   }
 
+  .masthead-button-bottom:hover {
+    cursor: pointer;
+  } 
+ 
+
   /* SECTION-TOP */
 
 
@@ -262,6 +267,10 @@ height: auto;
   border: 2px solid rgb(255, 78, 80);
 }
 
+
+.bottom-button:hover {
+  cursor: pointer;
+}
 
 
 
